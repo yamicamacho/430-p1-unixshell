@@ -29,8 +29,6 @@ This project is organized into several parts:
 Executing Command in a Child Process
 The first task is to modify the main() function in Figure 3.32 so that a child process is forked and executes the command specified by the user.  This will require parsing what the user has entered into separate tokens and storing the tokens in an array of character strings (args in Figure 3.32).  
 
-Hint: You might find the tokenize example in https://github.com/pisan430/c-for-os Links to an external site. helpful.
-
 For example, if the user enters the command ps -ael at the osh> prompt, the values stored in the args array are:
 
 args[0] = "ps"
